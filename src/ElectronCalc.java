@@ -131,11 +131,15 @@ We had to agree on whether to add the full computation in the constructor for th
 
 ONE PROBLEM THAT APPEARED WHEN THE FILES MET:
 
+The integration of both files was very smooth and no errors occured, except for an error on Mo's part in which the width of the transistor was set to 1nm, which resulted in a 2% rate of tunneling, along with the squared probability, made the tunneling occurence virtually never happen. 
 
 HOW WE SOLVED IT:
 
+I contacted Mo and he switched the width to 0.3 nm, raising the probability to 30%.
 
 ONE THING I NOW UNDERSTAND BETTER ABOUT CLASSES OR OBJECTS:
+
+I think I am more familiar with how java classes work and their syntax, but I don't feel that my overall undestanding has of classes or OOP has really changed. 
 */
 
 
