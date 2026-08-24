@@ -15,11 +15,11 @@ public class Electron {
     //random object
     Random random = new Random();
 
-    // Calculate quantum tunneling probabiltiy: Final probabiltiy should be around 20-30%
+    // Calculate quantum tunneling probabiltiy: Final probabiltiy should be around 30%
     // The physical constants that define the final probabiltiy are explicitly defined here for user educational value
     // These constants are fiducially chosen to give a probability of 30%
 
-    static double width = 1e-9; // Width of transistor meters (1 nanometer)
+    static double width = 0.3e-9; // Width of transistor meters (0.3 nanometers)
     static double mass_e = 9.109 * Math.pow(10,-31); // Eelectron mass
     static double rPlanck_const = 1.055 * Math.pow(10, -34); // reduced planck constant
     static double energyDiff = 2.2 * Math.pow(10,-20); //Difference between the potential energy height of the barrier and the electron energy (J)
