@@ -1,1 +1,5 @@
 # ElectronCalculator
+
+## Description
+
+The Electron Calculator is a digital calculator that can only perform additional operations for positive integers. The actual calculation is manually coded to be done in binary with Boolean representations of the two numbers. The reason the calculation is structured this way is so that at each gate operation, we will be able to imagine the physical design and mechanism for each gate and calculate the probability of the signal quantum tunneling through the gate, changing the calculation, given that the electrical signal consists of a singular electron and that the used transistor has a total thickness of 1 nanometer. Therefore, the program will mostly return incorrect calculations for each calculation and also display the number of instances of quantum tunneling and which gates were tunneled through. The program keeps track of this information by using the electron class to calculate the quantum tunneling and store the instances when it does. The probability of quantum tunneling is also natively calculated in the class constructor in order to provide further educational value for those examining the code. 
