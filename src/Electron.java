@@ -84,11 +84,14 @@ Me and Ethan agreed that the support class would handle the logic for determinin
 We also agreed that Ethan would call the the notGateTunnel and andGateTunnel depending on whether the electron was encountering the relevant gate, so there would be no choice logic between the two functions in the electron class.
 
 ONE PROBLEM THAT APPEARED WHEN THE FILES MET:
-Currently, Ethan has not finished the main file, and as such the files are not yet compatible. I am currenlty submitting my class file to avoid the deadline closing, but this will likely be modified and resubmitted in the future.
+When Ethan ran the integrated program for the first time, he found in the debugger that tunProb seemed to be only 2% instead of the inted 30%.
 
 HOW WE SOLVED IT:
-Currently, Ethan has not finished the main file, and as such the files are not yet compatible, so we haven't solved the issue of file integration yet.
-Once again, I'm submitting my finished file alone to avoid the deadline closing, this will likely be resubmitted once me and Ethan get back in contact.
+Ethan informed me about the issue, which was purely a bug on my end, and I altered the width parameter to 0.3 nm so as to correct this and produce the desired tunProb.
 
 ONE THING I NOW UNDERSTAND BETTER ABOUT CLASSES OR OBJECTS:
+I now am more familiar with the syntax for classes in Java, especially for the constructor. 
+In addition, I believe I now have a deeper understanding about how the main file accesses class methods, and how class methods should thus behave and be structured (returns, arguments, etc.) to accomodate the main file.
+Finally, I now have a better understanding as to what it means to collaborate as a programmer.
+
 */
